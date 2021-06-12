@@ -17,8 +17,7 @@
         {{ end }}
       {{ end }}
 
-      <h1>{{ .Site.Title }}</h1>
-
+      <h3>{{ .Site.Title }}</h3>
       {{ with .Site.Params.description }}
       <p class="lead">{{.}}</p>
       {{end}}
@@ -26,14 +25,15 @@
 
     <nav>
       <ul class="sidebar-nav">
-        <li>
-          <a href="{{ .Site.BaseURL }}">Home</a>
-        </li>
         {{ range .Site.Menus.main -}}
         <li>
           <a href="{{ .URL }}">{{ .Name }}</a>
         </li>
         {{- end }}
+
+        <li>
+          <a href="{{ .Site.BaseURL }}">Blog</a>
+        </li>
       </ul>
     </nav>
 
