@@ -43,7 +43,6 @@ mainSections = ["post"]
   tag = "tags"
 
 [menu]
-
   [[menu.main]]
   name = "About"
   identifier = "about"
@@ -52,7 +51,6 @@ mainSections = ["post"]
 
 
 [markup]
-
   [markup.highlight]
   codeFences = true
   guessSyntax = false
