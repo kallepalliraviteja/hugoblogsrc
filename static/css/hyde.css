@@ -159,13 +159,13 @@ footer {
 }
 
 .sidebar {
-  background-color: #49757a;
-  color: #fff;
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .sidebar a,
 .sidebar-about h1 {
-  color: #fff;
+  color: #000;
 }
 
 footer a,
